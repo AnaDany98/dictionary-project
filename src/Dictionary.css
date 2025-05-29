@@ -1,20 +1,28 @@
-.Dictionary {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .Dictionary form {
-    width: 100%;
-    max-width: 400px;
-  }
-  
-  .Dictionary input {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-  }
+.Dictionary h1{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Dictionary section {
+  background: white;
+  width: 60%;
+  padding: 30px;
+  display: block;
+  border-radius: 6px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; /* ← esto centra horizontalmente */
+}
+
+.Dictionary input{
+  width: 100%;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.Dictionary .hint{
+  font-size: 11px;
+  margin-top: 5px;
+}
